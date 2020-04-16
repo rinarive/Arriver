@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*{
+  margin:0;
+  padding:0;
+  font-size:large;
+  max-width: 100%;
+  font-family: 'Baloo 2', cursive;
+  font-size: 22px;
+  scrollbar-color: hidden;
+
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  opacity: 0.8;
+}
+
+.main{
+  width: inherit;
+  height: inherit;
+
+}
+.logo{
+  width: 50%;
+  height: 50%;
+}
+.init{
+  background: url('https://github.com/rinarive/Arriver/blob/master/public/images/road.jpg?raw=true') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+
+}
+.sub{
+    color:white;
+}
+.profileImg{
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  border-radius: 8px;
+
+}
+.middle {
+  transition: .5s ease;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.text {
+  color: white;
+  font-size: 80px;
+}
+.blueTitle{
+  color: #9b142b;
+}
+.blueTitle2{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15rem;
+  color: #9b142b;
+}
+.myName{
+  color: #9b142b;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.box{
+  margin-top: 10%;
+  padding:5%;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  grid-row: auto;
+  flex-direction: row-reverse;
+}
+.aboutMe{
+  font-size: calc(20px + 2vmin);
+  padding-left: 17px;
+
+}
+.whiteTitle{
+  color: rgb(245, 244, 244);
+  margin-bottom: 2%;
+}
+.contactimg{
+  height: 100%;
+  width: 56%;
+  margin-left: 20%;
+
+}
+.tools{
+  letter-spacing: 0.2em;
+}
+.white{
+  background:white;
+  margin:0;
+ 
+}
+
+
+  .projects{
+    color: #970E06;
+    font-family: 'Montserrat';
+    
+  }
+  .projects:hover{
+    text-decoration: none;
+
+  }
+  .container{
+
+    margin:0;
+  } 
+
+.sections{
+  min-height: 75vh;
+  background: url('https://github.com/rinarive/Arriver/blob/master/public/images/truckWhite.jpg?raw=true') no-repeat center center;
+  background-size: cover;
+
+  display: flex;
+
+
+}
+.middleBtn{
+  margin-left: 40%;
+}
+.logoSpacing{
+  margin-top: 25px;
+}
+.skills{
+
+  font-size: calc(20px + 2vmin);
+  padding-left: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 500px;
+  text-align: right;
+  margin-right: 50px;
+
+}
+.boxSkills{
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  grid-row: auto;
+  flex-direction: row-reverse;
+}
+.softSkill{
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  border-radius: 8px;
+ 
+}
+.contact{
+  width: 100px;
+  margin: 50px;
+
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  margin-left: 70%;
+  width: min-content;
+}
+.contact2{
+margin-left: 15%;
+padding: 10px;
+
+}
+.back{
+  color: #970E06;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  *{
+    font-size: 20px;
+    
+  }
+  .middle {
+     transition:0;
+    position: sticky;
+    top: 45%;
+    transform: translate(0);
+    -ms-transform: translate(0);
+}
+.aboutMe{
+  margin-top: 20%;
+}
+.profileImg {
+  max-width: 80%;
+  margin-bottom: 20%;
+}
+  h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .box{
+    flex-wrap: wrap;
+    margin-top: 0%;
+  }
+ 
+  .boxSkills{
+    flex-wrap: wrap;
+    margin-top: 0%;
+    padding: 1%;
+
+  }
+
+.softSkill{
+margin-bottom: 10px;
+max-width: 80%;
+
+}
+
+  .blueTitle2{
+    justify-content: center;
+  }
+  .white{
+
+    min-height: 50vh;
+  }
+  .projectSection{
+    padding-left: 20%;
+  }
+  .contact2{
+    width: 65px;
+    margin: 0px;
+
+  }
+  .icons{
+    margin-left: 42%;
+  }
+  .cv{
+    margin-left: 30%;
+  }
+  #float-right{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+  .blueTitle2{
+    margin-right: 0;
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 667px) {
+  *{
+    font-size: 15px;
+    margin:0;
+    padding:0;
+  }
+  .logoSpacing{
+    padding-bottom: 15%;
+    margin-left: 5%;
+  }
+  .projectSection{
+    padding-left: 15%;
+    
+  }
+  .cv{
+    margin-left: 30%;
+  }
+.sections .white{
+  padding:0;
+}
+
+}
+@media (max-width: 368px){
+  *{
+    font-size: 15px;
+    margin:0;
+    padding:0;
+  }
+  .sections .white{
+    padding:0;
+  }
+
+}
+
+
+
