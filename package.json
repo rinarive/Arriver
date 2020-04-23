@@ -1,0 +1,23 @@
+{
+  "name": "arriver",
+  "version": "1.0.0",
+  "description": "proyecto personal",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinarive/Arriver.git"
+  },
+  "author": "rena rivero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinarive/Arriver/issues"
+  },
+  "homepage": "https://github.com/rinarive/Arriver#readme"
+}
